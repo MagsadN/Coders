@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ders 2</title>
+    <style>
+        table {
+            width: 100%;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 20px;
+        }
+
+        th {
+            text-align: left;
+        }
+
+        td {
+            text-align: center;
+        }
+
+        #ex2 tr:nth-child(even) {
+            background-color: blue;
+        }
+
+        #ex2 tr:nth-child(odd) {
+            background-color: blueviolet;
+        }
+
+        #ex2 th {
+            background-color: black;
+            color: blanchedalmond;
+        }
+
+        #ex2 tr:nth-child(3) {
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <caption>Example</caption>
+        <tr>
+            <td>Batatas</td>
+            <td rowspan="3">Couves</td>
+            <td>Alhos</td>
+            <td>Cebolas</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td rowspan="2" colspan="2">Alface</td>
+        </tr>
+        <tr>
+            <td>Nabos</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <table id="ex2">
+        <caption>Styled table</caption>
+        <tr>
+            <th>AAAA</th>
+            <th>BBBB</th>
+            <th>CCC</th>
+        </tr>
+        <tr>
+            <td>Batatas</td>
+            <td>Couves</td>
+            <td>Alhos</td>
+        </tr>
+        <tr>
+            <td>Batatas</td>
+            <td>Couves</td>
+            <td>Alhos</td>
+        </tr>
+        <tr>
+            <td>Batatas</td>
+            <td>Couves</td>
+            <td>Alhos</td>
+        </tr>
+        <tr>
+            <td>Batatas</td>
+            <td>Couves</td>
+            <td>Alhos</td>
+        </tr>
+    </table>
+
+
+    <h2>Lists</h2>
+
+
+    <ul>
+        <li>Cofeee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <br>
+    <br>
+    <br>
+
+    <ol>
+        <li>ASDF</li>
+        <li>BHBJHA</li>
+        <li>jiasjslaij</li>
+    </ol>
+
+    <br>
+    <br>
+    <br>
+
+    <dl>
+        <dt>Cofeee</dt>
+        <dd> - black hot drink</dd>
+        <dt>Milk</dt>
+        <dd> - white cold drink</dd>
+    </dl>
+
+
+    <br>
+    <br>
+    <br>
+
+    <ul style="list-style-type: none;">
+        <li>Cofeee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+
+    <br>
+    <br>
+    <br>
+
+    <ul style="list-style-type: none;">
+        <li>Cofeee
+            <ul>
+                <li>Black</li>
+                <li>Milky</li>
+                <li>White</li>
+            </ul>
+        </li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+
+    <br>
+    <br>
+    <br>
+
+    <ol type="A" start="6">
+        <li>Cofeee</li>
+        <li>Tea</li>
+        <li>Milk
+            <ul style="list-style-type: none;">
+                <li>Cofeee
+                    <ul>
+                        <li>Black</li>
+                        <li>Milky</li>
+                        <li>White</li>
+                    </ul>
+                </li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ul>
+        </li>
+    </ol>
+</body>
+
+</html>
