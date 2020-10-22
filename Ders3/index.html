@@ -108,9 +108,9 @@
         <input type="checkbox">
         <br>
         <label>Pin</label>
-        <input type="password" maxlength="4" size="50" autofocus >
+        <input type="password" maxlength="4" size="50" autofocus>
         <br>
-        
+
 
         <input type="checkbox">
         <label>I have a car</label>
@@ -134,21 +134,21 @@
 
         <br>
 
-        <input type="date" >
-        <input type="datetime-local" >
+        <input type="date">
+        <input type="datetime-local">
 
         <br>
         <input type="email" required>
         <br>
 
-        <input type="file" >
+        <input type="file">
         <br>
 
         <input type="number" min="5" max="10" step="2">
 
         <br>
 
-        <input type="range" min="0" max="50" step="10" >
+        <input type="range" min="0" max="50" step="10">
 
         <br>
 
@@ -174,9 +174,42 @@
         <label for="sname"> Surname</label>
         <input type="text" id="sname" name="sname">
         <br>
-        <input type="submit" >
-
+        <input type="submit">
     </form>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <form>
+        <input list="diller" name="diller">
+        <datalist id="diller">
+            <option value="HTML">
+            <option value="CSS">
+            <option value="JS">
+        </datalist>
+
+        <br>
+        <br>
+        <br>
+
+        <select name="diller[]" multiple size="7">
+        <optgroup label="Front dilleri">
+            <option value="css">CSS</option>
+            <option value="css">HTML</option>
+            <option value="css">JS</option>
+        </optgroup>
+
+        <optgroup label="Backend diller">
+            <option value="css">PHP</option>
+            <option value="css">Java</option>
+            <option value="css">Pyhthon<option>
+        </optgroup>
+        </select>
+    </form>
+
+
 
 
     <footer>
